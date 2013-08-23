@@ -17,9 +17,11 @@
         </dependency>
 
         <dependency>
-            <groupId>TicTacToe</groupId>
-            <artifactId>TicTacToeJar</artifactId>
-            <version>1.0.0</version>
+          <groupId>TicTacToe</groupId>
+          <artifactId>TicTacToe</artifactId>
+          <scope>system</scope>
+          <version>1.0</version>
+          <systemPath>${project.basedir}/lib/TicTacToe.jar</systemPath>
         </dependency>
-    </dependencies>
+      </dependencies>
 </project>
